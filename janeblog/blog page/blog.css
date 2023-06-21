@@ -1,0 +1,454 @@
+html{
+    font-family:serif;
+    background-color: gainsboro;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+@media screen and (max-width:318px){
+    html{
+        display:none;
+    }
+    }    
+
+header{
+    background-color: black;
+    padding:0.7rem;
+    visibility: hidden;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 2.6rem;
+    margin-left:2rem;
+    padding: 1rem;
+}
+a:hover{
+    background-color: gray;
+}
+#foresic{
+    margin-left:2rem; 
+    font-size:1.4rem;
+}
+.marker{
+    font-weight:bolder; 
+    color:white; 
+    font-size:1rem;
+}
+div.subfirst{
+    background: aqua url('../blog image/jane5.jpg') repeat;
+    height: 13.3rem;
+    display:grid;
+    grid-template: 8rem 2rem/ auto auto;
+    gap: 0.7rem;
+    
+}
+
+img.img1{
+    width: 7rem;
+    height: 12rem;
+    margin-top:0.8rem
+    }
+.item2{
+    padding:0.7rem;
+    width:6.7rem;
+}
+.second{
+    background-color: white;
+    
+    
+}
+.img2{
+    width:14rem;
+    margin-left: 2rem;
+}
+#ui{
+    margin-left:5rem;
+     background-color: black; 
+     color: white; 
+     padding:10px;
+      margin-bottom:20px;
+}
+img.img3{
+    width:100%;
+    height:20rem;
+    position:absolute;
+    margin-left:-0.5rem;
+    }
+
+div.sub-third{
+    background-color: black;
+    color:white;
+    position: relative;
+    top: 12rem;
+    height:11rem;
+    width:103.5%;
+    margin-left:-0.5rem;
+   }
+div.sub-fourth1{
+    background-color: black;
+    padding: 0.5rem;
+    color: white;
+    margin-left:-0.5rem;
+    width:100%
+    }
+div.sub-fourth2{
+    background-color: white;
+    border-bottom: 0.1rem solid wheat;
+    padding: 0.9rem;
+    display:flex;
+    margin-left:-0.5rem;
+    width:96%;
+   }
+img.img4{
+    width:4rem;
+    height: 3rem;
+   }
+div.fifth{
+    background-color: white;
+    padding: 5rem;
+    color: black;
+    margin-left:-0.5rem;
+    margin-right:-0.5rem;
+    text-align:center;
+    }
+div.sixth{
+    display:grid;
+    position:absolute;
+    grid-template-columns: 5rem 4rem 4rem 3.4rem;
+    gap:1rem;
+    background-color: white;
+    margin-left:-0.5rem;
+    margin-right:-0.5rem;
+}
+
+div.sub-sixth{
+    background-color: gray;
+    position: relative;
+    padding: 0.5rem;
+    font-size:1rem;
+    margin-top:0.5rem;
+}
+div.seventh{
+    display:grid;
+    grid-template-columns: auto auto;
+    gap: 3.5rem;
+    position:absolute;
+    background-color: white;
+    margin-left:-0.48rem;  
+}
+div.seventh > img{
+    position:relative
+}
+img.img5{
+    width:7.6rem;
+    height:5.6rem;
+}
+
+
+.eight{
+    background-color: white;
+    display: flex;
+    width:103.5%;
+    margin-left:-0.5rem;
+    
+}
+div.eight > a{
+    text-decoration: none;
+    font-size: 3rem;
+    color: black;
+    padding: 0rem;
+   }
+.sub + .nineth{
+    background-color: white;
+    position:relative;
+    top:3.2rem;
+    margin-left:-0.5rem;
+    margin-right:-0.5rem;
+}
+.sub{
+    background-color: black;
+    padding: 0.5rem;
+    color: white;
+    margin-left:-0.5rem;
+    width:94.5%;
+    position:absolute;    
+    }
+.keit{
+    width:96%;
+}
+input[type]{
+    width:80%;
+    margin-left:1rem;
+    margin-right: 0.5rem;
+    padding:0.6rem;
+}
+.tenth{
+    background-color: gray;
+    padding:3rem;
+}
+.sorry{
+    width:80%;
+        margin-left:1rem;
+        margin-right: 0.5rem;
+        padding:0.3rem;
+        background-color: red;
+}
+
+@media   (min-width:481px){
+header{
+    visibility: visible;
+}
+   
+    #foresic{
+        margin-left: 8rem;
+        font-size: 2rem;
+    }
+    .marker{
+        font-weight:bolder; 
+        color:white; 
+        font-size:2rem;
+        margin-left: 0.8rem;
+    }
+    div.subfirst{
+        background: aqua url('../blog image/jane5.jpg') repeat;
+        height: 13.3rem;
+        display:grid;
+        grid-template: 10rem 2rem/ 11rem auto;
+        gap: 0.7rem;
+        
+    }
+    .item2{
+        margin-left:0.8rem ;
+    }
+    .img1{
+        margin-left:8.4rem;
+    }
+    .img2{
+        width:16rem;
+        margin-left: 6.5rem;
+    }
+    #ui{
+        margin-left:17rem;
+    }
+    div.sub-third{
+        background-color: black;
+        color:white;
+        position: relative;
+        top: 12rem;
+        height:11rem;
+        width:103.6%;
+        margin-left:-0.5rem;
+       }
+       div.sixth{
+        display:grid;
+        position:absolute;
+        grid-template-columns: 5rem 5rem 5rem 5rem 5rem;
+        gap:1rem;
+        background-color: white;
+        margin-left:-0.5rem;
+        margin-right:-0.5rem;
+    }
+    img.img5{
+        width:12.7rem;
+        height: 12rem;
+    }
+    .eight{
+        background-color: white;
+        display: flex;
+        width:103.5%;
+        margin-left:-0.5rem;
+        position:relative;
+        top:12rem;
+    }
+    
+    .kairo{
+        position:relative;
+        top: 12rem;
+    }
+    .keit{
+        position: relative;
+        top:10rem;
+        width:100%;
+    }
+    .sub + .nineth{
+        background-color: white;
+        position:relative;
+        top:10rem;
+        margin-left:-0.5rem;
+        margin-right:-0.5rem;
+    }
+    .sorry{
+        width:80%;
+            margin-left:1rem;
+            margin-right: 0.5rem;
+            padding:0.7rem;
+            background-color: red;
+    }
+    
+    }
+    @media (min-width:768px){
+        #foresic{
+            margin-left: 18rem;
+            font-size: 2rem;
+        }
+        div.subfirst{
+            background: aqua url('../blog image/jane5.jpg') repeat;
+            height: 13.3rem;
+            display:grid;
+            grid-template: 10rem 2rem/ 28rem auto;
+            gap: 0.7rem;
+            
+        }
+        .img2{
+            width:25rem;
+            margin-left: 12rem;
+        }
+        #ui{
+            margin-left:34rem;
+        }
+        div.sub-fourth2{
+            width:100%;
+           }
+        div.sixth{
+            display:grid;
+            position:absolute;
+            grid-template-columns: 9rem 8rem 8rem 9rem 8rem;
+            gap:2rem;
+            background-color: white;
+            margin-left:-0.5rem;
+            margin-right:-0.5rem;
+        }
+        div.sub-sixth{
+            background-color: gray;
+            position: relative;
+            padding:  1rem;
+            font-size:1rem;
+            margin-top:0.5rem;
+           
+                 }
+           img.img5{
+            width:22rem;
+            height: 20rem;
+        }
+        .eight{
+            background-color: white;
+            display: flex;
+            width:103.5%;
+            margin-left:-0.5rem;
+            position:relative;
+            top:26rem;
+        }
+        .kairo{
+            position:relative;
+            top: 27rem;
+        }
+        .keit{
+            position: relative;
+            top:24rem;
+            width:100%;
+        }
+        .sub + .nineth{
+            background-color: white;
+            position:relative;
+            top:24rem;
+            margin-left:-0.5rem;
+            margin-right:-0.5rem;
+        }
+        .sorry{
+            width:95%;
+                margin-left:1rem;
+                margin-right: 0.5rem;
+                padding:1rem;
+                background-color: red;
+        }
+        input[type]{
+            width:90%;
+            margin-left:1rem;
+            margin-right: 0.5rem;
+            padding:1rem;
+        }
+        .tenth{
+            position:relative;
+            top:30rem;
+            background-color: gray;
+            padding:3rem;
+        }
+    }
+    @media (min-width:1000px){
+        #foresic{
+            margin-left: 22rem;
+            font-size: 2rem;
+        }
+        div.subfirst{
+            background: aqua url('../blog image/jane5.jpg') repeat;
+            height: 13.3rem;
+            display:grid;
+            grid-template: 10rem 2rem/ 44rem auto;
+            gap: 0.7rem;
+            
+        }
+        .img2{
+            width:25rem;
+            margin-left: 19rem;
+        }
+        #ui{
+            margin-left:52rem;
+        }
+        div.sixth{
+            display:grid;
+            position:absolute;
+            grid-template-columns: 14rem 12rem 12rem 14rem 12rem;
+            gap:2rem;
+            background-color: white;
+            margin-left:-0.5rem;
+            margin-right:-0.5rem;
+        }
+        .newmi{
+            position:relative;
+            top: 3rem;
+        }
+        div.seventh{
+            display:grid;
+            grid-template-columns: auto auto;
+            gap: 5rem;
+            position:absolute;
+            background-color: white;
+            margin-left:-0.48rem; 
+            margin-top: 3rem; 
+        }
+        img.img5{
+            width:33rem;
+            height: 20rem;
+            
+        }
+        .kairo{
+            position:relative;
+            top: 31.3rem;
+        }
+        .eight{
+            background-color: white;
+            display: flex;
+            width:103.5%;
+            margin-left:-0.5rem;
+            position:relative;
+            top:30rem;
+        }
+        .keit{
+            position: relative;
+            top:29rem;
+            width:100%;
+        }
+        .sub + .nineth{
+            background-color: white;
+            position:relative;
+            top:29rem;
+            margin-left:-0.5rem;
+            margin-right:-0.5rem;
+        }
+    }
+    
+    
+
+
+
+

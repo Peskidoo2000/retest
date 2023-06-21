@@ -1,0 +1,362 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    
+      }
+
+div.first{
+    display:flex;
+    flex-direction: row;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0rem;
+    background-color: white;
+    padding-bottom:0rem;
+    border-bottom: 0.1rem solid gainsboro;
+}
+div.sub-first1{
+    margin-left:40%;
+}
+.sub{
+    color:blue;
+}
+.bx-menu{
+    font-size:2rem;
+}
+#first{
+    display:none;
+    background-color: darkslategrey;
+    width:3.5rem;
+}
+a.second{
+    text-decoration: none;
+    color:white;
+    line-height: 2;
+  }
+.second:hover{
+    background-color:black;
+    color:white;
+    padding: 1rem 1rem 1rem 0rem;
+}
+p.d{
+    font-weight: bold;
+    line-height: 1.6rem;
+   }
+span.fourth{
+    background-color: blue;
+    padding:0.4rem;
+   }
+ol.fifth{
+    list-style-type: none;
+    }
+.fifth > li{
+    margin-left:-2.5rem;
+}
+.sub-fifth{
+    text-decoration: none;
+    color: darkslateblue;
+    font-size: large;
+}
+#second{
+    background-color: blue;
+    padding:0.4rem;
+    margin:auto;
+    width:3rem;
+    font-size: x-small;
+    text-align: center;
+}
+div.sixth{
+    display:flex;
+    flex-direction: column;
+}
+.special{
+    margin: auto;
+    width:12rem;
+    }
+#third2, .domi{
+    margin:auto;
+    width:18rem;
+    text-align: center;
+    }
+#third3{ 
+    font-size:small;
+    }
+.img1{
+    width: 9rem;
+    max-height: 9rem;
+    
+   }
+
+#third{
+    font-size: smaller;
+    text-align: center;
+}
+#fourth{
+    position:relative;
+    top:-1rem;
+    font-size: smaller;
+    text-align: center;
+}
+
+div.seventh{
+    margin:auto;
+    width:90%; 
+    background-color: white;
+    box-shadow: 1px 1px 2px 3px  gainsboro;
+    border-radius: 0.2rem;
+    
+}
+.sub-seventh{
+    display: flex;
+ }
+
+.bxl-html5, .bxl-css3, .bxl-javascript, .bxl-react{
+    font-size:1.8rem;
+    color:blue;
+}
+
+.tension{
+    font-size: x-small;
+    position:relative;
+    bottom:-0.7rem;
+}
+.pat{
+    font-size: small;
+    margin-left:9rem;
+}
+.pat1{
+    font-size: small;
+    margin-left:10rem;
+}
+.pat2{
+    font-size: small;
+    margin-left:7.4rem;
+}
+.pat3{
+    font-size: small;
+    margin-left:10rem;
+}
+
+div.eight{
+    background-color: blue;
+    width: 95%;
+    padding:0.1rem;
+    border-radius: 0.5rem;
+}
+div.eight1{
+    background-color: blue;
+    width: 75%;
+    padding:0.1rem;
+    border-radius: 0.5rem;
+}
+div.eight2{
+    background-color: gainsboro;
+    width: 100%;
+    padding:0.1rem;
+    border-radius: 0.5rem;
+}
+.nineth{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+}
+
+#fifth{
+    text-align: center;
+    font-size: smaller;
+}
+
+.img2{
+    width: 30%;
+    height: auto;
+    margin-left: 30%;
+   }
+a#sixth{
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+    padding:0.4rem;
+    
+}
+div.paste-special{
+    margin: auto;
+    width:5rem;
+   }
+form{
+    width:97%;
+    line-height:2.5rem;
+    background-color: gainsboro;
+    padding:0.3rem;
+    border-radius:0.3rem;
+}
+input[type]{
+    width:95%;
+    border-radius:0.3rem;
+    padding:0.3rem;
+}
+textarea{
+    width:95%;
+    height:10rem;
+    border-radius:0.3rem;
+}
+#sixth{
+    background-color: blue;
+    padding:0.4rem;
+    color:white;
+    }
+#last{
+    margin-left: 85%;
+    background-color: blue;
+    padding:0.4rem;
+    color:white;
+}
+div.eleventh{
+    background-color: darkslategrey;
+    text-align: center;
+}
+div.sub-eleventh{
+    display:flex;
+    margin:auto;
+    width:7rem;
+    justify-content: space-between;
+   }
+.bxl-facebook-circle, .bxl-instagram, .bxl-whatsapp{
+    color:white;
+    font-size: large;
+   }
+a#seventh{
+    text-decoration: none;
+    color:darkblue;
+}
+@media(max-width:318px){
+    html{
+        visibility: hidden;
+    }
+}
+@media(min-width:481px){
+    div.sub-first1{
+        margin-left:65%;
+    }
+    .pat{
+        font-size: small;
+        margin-left:18rem;
+    }
+    .pat1{
+        font-size: small;
+        margin-left:15rem;
+    }
+}
+@media(min-width:640px){
+    div.sub-first1{
+        margin-left:28rem;
+    }
+    .sub{
+        font-size: larger;
+    }
+    p.third{
+        font-size:xx-large;
+        line-height: 2.5rem;
+       }
+    ol.fifth{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        width:5rem;
+        
+        }
+    .fifth > li{
+        margin-left:-2rem;
+        }
+    .sub-fifth{
+        text-decoration: none;
+        color: darkslateblue;
+        font-size: xx-large; 
+        }
+    div.sixth{
+        display:flex;
+        flex-direction:row;
+        }
+    div.sixth > div{
+        margin: 1rem;
+        width: 40rem;
+        
+        }
+    div.sub-sixth{
+        margin:0;
+        width:auto;
+       
+        }
+    #third{
+        font-size: large;     
+        text-align: center;
+        }
+    #third3, .domi{
+        text-align: center;
+               }
+    .img1{
+        width: 16rem;
+        max-height: 18rem;       
+        }
+    #second{
+        background-color: blue;
+        padding:0.9rem;
+        margin:auto;
+        width:3.7rem;
+        font-size: small;
+        text-align: center;
+        }
+    #third2, .domi{
+        width:auto;
+        }
+    .nineth{
+        position:relative;
+        display:flex;
+        flex-direction:row;
+        }
+    .nineth > div{
+        width:90rem;
+        margin:2rem;
+    }
+
+    #fifth{
+        text-align: center;
+        font-size: smaller;
+    }
+    .img2{
+        width: 50%;
+        height: auto;
+        margin-left: 30%;
+       }
+    .pat{
+        font-size: small;
+        margin-left:9rem;
+    }
+    .pat1{
+        font-size: small;
+        margin-left:10rem;
+    }
+    .pat2{
+        font-size: small;
+        margin-left:7.4rem;
+    }
+}
+@media(min-width:773px){
+    .pat{
+        font-size: small;
+        margin-left:13rem;
+    }
+    div.sub-first1{
+        margin-left:75%;
+    }
+}
+@media(min-width:1000px){
+    .pat{
+        font-size: small;
+        margin-left:20rem;
+        
+    }
+    .pat1{
+        font-size: small;
+        margin-left:15rem;
+    }
+}

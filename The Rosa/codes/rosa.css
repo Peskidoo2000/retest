@@ -1,0 +1,222 @@
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+div.first{
+    background: aqua url(../assest/toi3.jpg) no-repeat;
+    height: 36rem;
+    background-size: cover;
+}
+div.first > div.sub-first{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+    color: white;
+    padding-left: 30%;
+}
+#first{
+    padding:1rem;
+    font-size: x-large;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.bx-menu{
+    padding:1rem;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.sub-first2{
+    margin:auto;
+    width:14rem;
+    text-align: center;
+    position:relative;
+    top:12rem;
+}
+#second{
+    font-family:serif;
+    font-size:3rem;
+    color:khaki;
+}
+#third{
+    font-weight: bolder;
+    color:white;
+    font-size: 1.4rem;
+}
+#fourth{
+    font-weight: bolder;
+    font-size: 3rem;
+    color:khaki;
+}
+#fifth{
+    color:white;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+div.second{
+    text-align: center;
+    position:relative;
+    top:2rem;
+}
+#sixth{
+    font-family:'San-serif';
+    font-size: xx-large;
+    color: khaki;
+    font-weight: bold;
+}
+#seventh{
+    color: black;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: bold;
+}
+#eight{
+    font-weight: bolder;
+    font-size: x-large;
+}
+#nineth{
+    font-size: small;
+}
+#forget{
+    background-color: white;
+    text-transform: uppercase;
+    font-size: x-small;
+    padding:0.4rem;
+    border-radius: 0.3rem;
+}
+#forget:hover{
+    text-decoration: underline;
+    color:burlywood;
+}
+#tenth{
+    text-transform: uppercase;
+    color:burlywood;
+    text-decoration: underline;
+    font-size: small;
+}
+#tenth:hover{
+    color:black;
+    border:1px solid blue;
+    border-bottom: 2px solid black;
+    border-radius: 0.3rem;
+    width:12rem;
+    margin:auto;
+    text-decoration: none;
+}
+div.third{
+    display:grid;
+    grid-template-columns: auto;
+    position:relative;
+    top:2rem; 
+}
+div.sub-third{
+    margin:auto;
+    width:85%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+img.img1{
+    width:85%;
+}
+div.fourth{
+    display:grid;
+    grid-template-columns: auto;
+    position:relative;
+    top:2rem;
+}
+div.sub-fourth{
+    text-align: center;
+    margin-top: 2rem;
+}
+div.penny{
+    display:flex;
+    justify-content: center;
+    margin: auto;
+    width:85%;
+    margin-top:1rem;
+}
+img.img2{
+    width:85%;
+}
+div.fifth{
+    background-color: black;
+    position:relative;
+    top:3rem;
+    text-align: center;
+}
+#eleventh{
+    color:rgb(164, 162, 162);
+    font-size:larger;
+    text-transform: uppercase;
+}
+#twelveth{
+    color:khaki;
+    font-weight:bold;
+    font-size:larger
+}
+#thirteenth{
+    color:white;
+    font-weight: bold;
+    width:60%;
+    line-height: 3.0;
+    margin:auto;
+}
+.bxl-facebook-circle, .bxl-instagram, .bxl-whatsapp{
+    color:rgb(164, 162, 162);
+    letter-spacing: 2.5rem;
+}
+#fourteenth{
+    width:80%;
+    margin:auto;
+}
+@media (max-width:318px){
+    html{
+        visibility: hidden;
+    }
+}
+@media (min-width:481px){
+    .sub-first2{
+        margin:auto;
+        width:14rem;
+        text-align: center;
+        position:relative;
+        top:12rem;
+    }
+}
+@media (min-width:640px){
+    div.first{
+        background: aqua url(../assest/toi3.jpg) no-repeat;
+        height: 40rem;
+        background-size: cover;
+    }
+    div.first > div.sub-first{
+        display: grid;
+        grid-template-columns: 80% auto;
+        gap: 1rem;
+        color: white;
+        padding-left: 30%;
+    }
+}
+@media (min-width:773px){
+    #nineth{
+        font-size: large;
+    }
+    #tenth{
+        font-size: large;
+    }
+    div.third{
+        display:grid;
+        grid-template-columns: auto auto auto;
+        gap:0.6rem;
+        position:relative;
+        top:2rem; 
+    }
+    div.fourth{
+        display:grid;
+        grid-template-columns: auto auto;
+        gap:0.6rem;
+        position:relative;
+        top:2rem;
+    }
+}
